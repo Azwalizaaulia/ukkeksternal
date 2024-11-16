@@ -1,0 +1,183 @@
+/* reset*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Times New Roman', Times, serif
+}
+
+.logo{
+    width:150px;
+    height: auto;
+    margin-left: 40px;
+}
+
+header{
+    background-color:rgb(229, 184, 128);
+    padding:20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap:20px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color:rgb(0, 0, 0)
+}
+
+.btn-maps {
+    background-color:rgb(240, 141, 95);
+    color:bisque;
+    padding: 10px 20px;
+    border-radius:5px;
+}
+/*hero content*/
+#hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color:azure;
+}
+
+.hero-img {
+    width:100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 20%;
+}
+
+.hero-content{
+    max-width: 2500px;
+}
+.hero-content h1 {
+    font-size: 2.5rem;
+}
+
+.btn-primary {
+    background-color:brown;
+    color:rgb(255, 255, 255);
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius:5px;
+    text-decoration: none;
+}
+
+/* products section*/
+#products h2 {
+    padding: 40px 0 40px;
+}
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+.product{
+    text-align: center;
+    max-width: 250px;
+    margin: 10px;
+}
+
+.product img {
+    width:100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.btn-contact{
+    background-color:brown;
+    color:rgb(255, 255, 255);
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius:5px;
+    text-decoration: none;
+}
+
+/* testimonials section */
+#testimonials{
+    background-color:beige;
+    padding: 40px;
+    text-align: center;
+}
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 0 40px;
+    text-align: center;
+}
+
+.testimonial{
+    margin: 30px;
+    max-width: 300px;
+    text-align: center;
+}
+.testimonial img{
+    width: 100%;
+    height: auto;
+    border-radius: 20%;
+}
+/* contact section */
+#contact{
+    padding: 40px;
+    text-align: center;
+}
+form input,
+form textarea {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+}
+button{
+    padding: 10px 20px;
+    background-color:rgb(28, 185, 247);
+    color:beige;
+    border: none;
+    cursor: pointer;
+}
+
+/* footer */
+footer{
+    background-color:#333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 10px x;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons img{
+    width: 30px;
+    margin: 0 0px;
+}
+
